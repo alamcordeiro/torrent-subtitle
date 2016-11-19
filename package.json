@@ -1,6 +1,6 @@
 {
   "name": "torrent-subtitle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Torrent Subtitle",
   "main": "index.js",
   "scripts": {
