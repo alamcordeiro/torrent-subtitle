@@ -1,0 +1,33 @@
+{
+  "name": "torrent-subtitle",
+  "version": "0.0.1",
+  "description": "Torrent Subtitle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "subtitletorrent": "bin/stdout.js"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "commander": "^2.9.0",
+    "mocha": "^3.1.2",
+    "mocha-standard": "^1.0.0",
+    "opensubtitles-api": "^3.3.0",
+    "webtorrent": "0.95.2",
+    "webtorrent-hybrid": "^1.0.5"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alamcordeiro/torrent-subtitle"
+  },
+  "keywords": [
+    "torrent",
+    "subtitle"
+  ],
+  "license": "MIT"
+}
